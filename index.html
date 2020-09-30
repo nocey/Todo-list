@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Todo-List</title>
+    <!-- Font Awsome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css">
+    <!-- My Css -->
+    <link rel="stylesheet" href="Css/main.css">
+    <link rel="stylesheet" href="Css/global.css">
+</head>
+
+<body>
+    <div id="main">
+        <h2 id="todo-header">Todo List</h2>
+        <div class="hr"></div>
+        <div id="add-todo">
+            <form id="todo-form">
+                <input type="text" id="form-text" placeholder="Bir Todo Giriniz" class="form-control">
+                <input type="submit" name="Todoekleme" class="todo-add" value="Todo Ekleme">
+            </form>
+        </div>
+
+        <div class="hr"></div>
+        <div id="todo-search">
+            <h3 id="todo-header">Todolar</h5>
+                <div class="hr"></div>
+                <div class="ortalama"><input type="text" placeholder="Bir Todo Arayın" class="form-control" id="todo-search"></div>
+        </div>
+        <div class="hr"></div>
+        <div id="todo-list" class="ortalama">
+            <ul id="todo-ul">
+
+            </ul>
+            <a href="#" id="btn"></a>
+        </div>
+        <div class="hr"></div>
+        <div class="ortalama">
+            <input type="submit" name="Todoekleme" class="todo-add" id="todo-del" value="Tüm task'ları sil">
+        </div>
+
+    </div>
+    <script src="JS/app.js"></script>
+</body>
+
+</html>
